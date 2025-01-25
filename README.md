@@ -21,7 +21,9 @@ sudo ufw allow <remote_port>
 ## Installation
 ```bash
 # Download script
-wget https://raw.githubusercontent.com/scor32k/port-forward/main/port-forward.sh
+git clone https://github.com/scorcism/port_forward
+
+cd port_forward
 
 # Make executable
 chmod +x port-forward.sh
